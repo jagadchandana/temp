@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p{
+            font-family: "Times New Roman", sans-serif ;
+        }
+        p.normal{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<p class="normal">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, libero?
+</p>
+<p class="italic">
+    Lorem ipsum dolor sit amet.
+</p>
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Aliquam consectetur consequatur, delectus, doloribus enim et itaque nam necessitatibus nihil nulla numquam,
+    obcaecati odio ratione repellat rerum tempore veniam voluptatibus?
+    Accusantium architecto dolorem dolorum expedita ipsum maxime modi quae recusandae,
+    rem soluta, suscipit ullam, unde. Asperiores et exercitationem facere odio provident quae sapiente ut!
+    A ad aspernatur ipsum? Aspernatur assumenda dicta eius, eum in magni nobis repudiandae? Adipisci doloremque explicabo perspiciatis reiciendis repudiandae rerum unde.
+    Accusamus aliquid cum dignissimos eum illo magni minima nihil, officia optio perferendis quos rem temporibus tenetur totam voluptatibus!
+    Consequatur cum dolore eius ex molestiae nobis quam!
+</p>
+<p class="oblique">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+</p>
+<h1>
+    Lorem ipsum dolor sit amet, consectetur.
+</h1>
+<h2>
+    Lorem ipsum dolor sit amet, consectetur adipisicing.
+</h2>
+
+
+
+<script>
+
+    class customer{
+        constructor(id, name) {
+            this.id=id;
+            this.name=name;
+        }
+    }
+    let array=[];
+
+    const c1=new customer('0011','Nimal');
+    const c2=new customer('0012','kamal');
+    const c3=new customer('0013','Amal');
+        array.push(c1,c2,c3);
+    console.log(array);
+
+    for(const tempcustomer of array){
+        console.log(tempcustomer);
+    }
+</script>
+
+
+</body>
+</html>
